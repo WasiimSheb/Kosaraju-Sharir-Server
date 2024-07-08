@@ -1,0 +1,46 @@
+##note## you should enter the command Newgraph n m and then enter all the edges
+-Removeedge
+-Newedge
+-Kosaraju
+and after entering kosaraju you will get a response.
+
+Q2: 
+   make all
+   first step for generate random graph enter this command:
+   python3 randomGraph.py
+   
+   make run_vector_vec
+   make run_vector_list
+   make run_list
+   make run_deque
+   
+for profiling: 
+   make profile_vector_vec
+   make profile_vector_list
+   make profile_list
+   make profile_deque
+
+Q3:
+   ./kosaraju_interactive
+   Newgraph n m
+
+Q4:
+   ./kosaraju_server
+   telnet localhost 9034
+
+Q6:
+   ./kosaraju_reactor
+   telnet localhost 9034
+
+Q7:  
+   ./kosaraju_server
+   telnet localhost 9034
+
+Q9:
+   ./kosaraju_proactor
+   telnet localhost 9034
+
+Q10:
+   ./kosaraju_server
+    telnet localhost 9034
+  
